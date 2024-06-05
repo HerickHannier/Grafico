@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f9;
+    margin: 0;
+}
+
+.container {
+    width: 400px; /* Ajustando a largura do contêiner */
+    background-color: white;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 1.2em;
+    color: #333;
+}
+
+#dataInfo {
+    margin-top: 10px;
+    text-align: center;
+    color: #555;
+    font-size: 0.9em;
+}
+
+#selectedDay {
+    font-weight: bold;
+    color: #0066cc;
+}
+
+#attendanceCount {
+    font-size: 1.0em;
+    color: #009933;
+}
+
+.updateSection {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 0.9em;
+}
+
+.updateSection h3 {
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.updateSection label {
+    margin-right: 5px;
+}
+
+.updateSection input, .updateSection select {
+    margin-right: 5px;
+    padding: 5px;
+    font-size: 0.9em;
+}
+
+.updateSection button {
+    padding: 5px 10px;
+    background-color: #0066cc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9em;
+}
+
+.updateSection button:hover {
+    background-color: #005bb5;
+}
+
+canvas {
+    width: 100%;
+    height: 150px; /* Altura ajustada para ser mais compacta */
+}
+
+.dateTime {
+    margin-top: 10px;
+    text-align: center;
+    color: #555;
+    font-size: 0.9em;
+}
